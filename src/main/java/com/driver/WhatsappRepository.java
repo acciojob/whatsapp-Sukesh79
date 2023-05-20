@@ -121,7 +121,7 @@ public class WhatsappRepository {
             throw new Exception("K is greater than the number of messages");
         }
         Collections.sort(list);
-        int k = list.get(list.size()-K);
+        int k = list.get(k);
         return map.get(k);
     }
 
